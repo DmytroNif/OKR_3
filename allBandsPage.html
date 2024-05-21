@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 4 music page</title>
+    <style>
+        body {
+            background-image: url('guitars.jpg'); /* Графічний фон сторінки */
+            background-color: #f0f0f0; /* Колір фону якщо зображення недоступне */
+        }
+        table {
+        width: 80%;
+        margin: 20px;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+    }
+    .center {
+        text-align: center;
+    }
+    .right {
+        text-align: right;
+    }
+        </style>
+</head>
+<body>
+     <!-- ОФОРМИТИ НОРМАЛЬНО ДОКУМЕНТ -->
+    <h1><font face="Arial" size="6" color="navy">Усі гурти, в яких я колись грав.</font></h1>
+    <p><font face="Verdana" size="4" color="black"><i>З деякими я в поганих стосунках,</i> а <b>з деякими в хороших.</b></font></p>
+
+    <h1>Таблиця усіх моїх гуртів за весь час</h1>
+    <table cellspacing="5" cellpadding="15">
+        <colgroup>
+            <col span="2" style="background-color:yellow">
+            <col style="background-color:lightblue">
+        </colgroup>
+        <tr>
+            <th>Гурти, в яких я граю зараз</th>
+            <th colspan="2"> Гурти, в яких я грав раніше</th>
+            <!-- <th>Заголовок 2</th>
+            <th>Заголовок 3</th> -->
+        </tr>
+        <tr>
+            <td rowspan="2">Red Eye, Toopunk</td>
+            <td colspan="2" class="center">Confusion</td>
+        </tr>
+        <tr>
+            <td class="right">Balkon</td>
+            <td>California</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="center">Тут лише ті гурти, які чогось досягли і досі існують.</td>
+        </tr>
+    </table>
+
+    <h2>Плаваючий фрейм</h2>
+    <iframe src="https://www.google.com" style="width:600px; height:400px;"></iframe>
+
+    <p class="custom-paragraph">Повернутися на <a href="mainPage.html">головну сторінку</a>.</p>
+
+</body>
+</html>
